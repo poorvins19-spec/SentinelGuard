@@ -1,0 +1,68 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Dataset - do not upload the original CSV
+dataset/creditcard.csv
+
+# Generated machine learning models
+models/*.pkl
+models/*.joblib
+
+# Generated reports
+reports/*.csv
+reports/*.json
+reports/*.html
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Editor files
+.vscode/
+
+# Virtual environments
+venv/
+.venv/
+.venv-*/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Dataset
+dataset/*.csv
+
+# Generated machine learning models
+*.keras
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Generated reports
+reports/*.csv
+reports/*.png
+reports/*.html
+reports/*.json
+
+# Secrets
+.env
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
